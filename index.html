@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f1403a3e89.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f1403a3e89.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <img src="images/Rohit__1_-removebg-preview.png" alt="" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="images/my-cv.pdf" class=" nav-btn">Download CV </a>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <p>Web Developer </p>
+                <h1>Hi, I'm <span>Rohit</span><br> Kumar Jha From India </h1>
+            </div>
+            <a href="images/my-cv.pdf" class="nav-btn">Download CV </a>
+        </div>
+    </div>
+
+    <!-- About Section Started -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello and welcome to my portfolio website! My name is Rohit Kumar Jha, and I am a website developer based in New Delhi. I am passionate about creating beautiful, functional, and responsive websites that provide the best user experience for my clients.
+
+                        I started my journey in website development 2 months ago and have since gained extensive experience in HTML, CSS, JavaScript, and Wordpress. I have worked on numerous projects, ranging from small business websites to complex e-commerce platforms, and have successfully delivered solutions that have exceeded my clients' expectations.
+                        
+                        My approach to website development is centered on understanding my clients' needs and goals. I believe that every website should be unique, and I strive to provide customized solutions that match my clients' brand identity and values. I am committed to delivering websites that are not only visually appealing but also user-friendly and easy to navigate.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML </span><br> Hyper Text Markup Language</li>
+                            <li><span>CSS  </span><br> Cascading Style Sheets</li>
+                            <li><span>Javascript  </span><br> Programming Language </li>
+                            <li><span>React Js </span><br> JavaScript Framework</li>
+                            <li><span>Wordpress Developer</span><br> Tools to develop website and their management system</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <!-- <li><span>Fresher</span><br> Developing Different types of Website</li>
+                            <li><span>Web Developer</span><br> Website Development</li> -->
+                            <li><span>Wordpress Developer</span><br> 1 Year Experience</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Class 10 (CBSE)</span><br> 85.2% </li>
+                            <li><span>Class 10+2 (CBSE) PCM </span><br> 71.2% </li>
+                            <li><span>BCA (MDU , Rohtak)</span><br> 75.2% </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------Services-------------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML & CSS</h2>
+                    <p>HTML is the standard markup language used to structure the content of a website. It provides a set of elements and tags that define the different components of a web page, such as headings, paragraphs, images, links, lists, and more. HTML elements are written using opening and closing tags, and they form the building blocks of a web page.
+                        CSS is a style sheet language used to control the presentation and layout of HTML documents. It allows web developers to define the visual appearance of elements on a web page, including colors, fonts, margins, padding, and positioning. CSS works by associating style rules with HTML elements, specifying how those elements should be displayed.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>JAVASCRIPT</h2>
+                    <p>JavaScript, often abbreviated as JS, is a dynamic and versatile programming language that plays a pivotal role in modern web development. It is primarily used on the client-side to create interactive and engaging user experiences. JavaScript enables developers to manipulate the Document Object Model (DOM) of web pages, allowing for real-time updates and dynamic content. With its event-driven and asynchronous nature, JS responds to user actions and events, making it a powerful tool for adding interactivity to websites. From validating form inputs to creating interactive web applications, JavaScript's adaptability and wide adoption have made it an indispensable component in web development.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-searchengin"></i>
+                    <h2>REACT JS</h2>
+                    <p>React.js, commonly referred to as React, is a popular and powerful JavaScript library that revolutionized the way developers build user interfaces (UIs) for web applications. Developed and maintained by Facebook, React.js provides a component-based architecture, allowing developers to create reusable UI components and efficiently manage complex user interfaces. The library's virtual DOM (Document Object Model) concept enables optimal rendering performance by updating only the parts of the UI that require changes, leading to faster and more responsive web applications. React's declarative approach simplifies the process of describing the desired state of the UI, leading to more maintainable and predictable code.</p>
+                    <a href="#">Learn More</a>
+                </div>
+               
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ---------------portfolio---------------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3> Educational Website(Tutorhub) </h3>
+                        <p>This is online eductional platform where multiple or single teacher can teach student free or sell their paid course.</p>
+                        <a href="https://tutorhub.gamlabazaar.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Social Media App </h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+
+                
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>E-Commerce Website </h3>
+                        <p> Website that allows businesses to sell products or services to customers over the internet. It typically includes an online catalog of products or services, a shopping cart, and a payment gateway that facilitates secure online transactions.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- -------------------------------contact--------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p> <i class="fa-solid fa-envelope"></i> rohitjha.rj8888@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91 9508299279</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100014036621047" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Rj8888Rohitjha" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/officialrohitjha/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rohit-kumar-jha-857021225/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Rohit Kumar Jha - 2023 </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link")
+
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+<script>
+
+
+    var sidemenu = document.getElementById("sidemenu");
+
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
