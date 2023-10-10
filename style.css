@@ -200,6 +200,10 @@ nav ul li a:hover::after {
 }
 
 .services-list div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -226,6 +230,16 @@ nav ul li a:hover::after {
     font-size: 18px;
     margin-top: 20px;
     display: inline-block;
+}
+
+.services-list div img{
+    width: 300px;
+}
+
+.services-list div p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .services-list div:hover {
@@ -435,6 +449,7 @@ nav .fas {
 }
 
 @media only screen and (max-width: 600px) {
+    
     #header {
        background-image: url(images/phone\ Untitled\ design.png);
     }
